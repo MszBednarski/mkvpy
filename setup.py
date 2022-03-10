@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="mkvpy",
-    version="0.0.1",
+    version="0.0.2",
     author="Mateusz Bednarski",
     author_email="msz.bednarski@gmail.com",
     description="Python client for geohot/minikeyvalue key/value store.",

@@ -16,7 +16,7 @@ def _url(url: str, key: str):
     return "{}{}".format(url, key)
 
 class MKV():
-    def __init__(self, url: str = "http://localhost:3000"):
+    def __init__(self, url: str = "http://127.0.0.1:3000"):
         # have url without / at the end
         if url.endswith("/"):
             self.url = url[:-1]
